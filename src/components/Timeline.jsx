@@ -58,7 +58,7 @@ const Timeline = () => {
               <div className="absolute md:left-1/2 left-[0px] transform -translate-x-1/2 w-6 h-6 bg-black rounded-full"></div>
 
               
-              <div className="w-full md:w-5/12 md:ml-6 p-6 bg-[#CCCACB] bg-gradient-to-r from-[#CCCACB] via-[#c5a9a9] to-[#d6cdcd] shadow-lg rounded-lg hover:shadow-xl transition-all duration-300">
+              <div className="w-full md:w-5/12 md:ml-6 p-6 bg-[#CCCACB] bg-gradient-to-r from-[#CCCACB] via-[#c5a9a9] to-[#d6cdcd] shadow-lg rounded-lg hover:shadow-xl transition-all duration-300" data-aos="fade-right">
                 <h3 className="text-2xl font-semibold text-gray-900">{item.title}</h3>
                 <p className="text-gray-700 mt-2">{item.description}</p>
                 <ul className="md:list-disc list-inside mt-3 text-gray-700">

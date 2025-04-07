@@ -9,10 +9,13 @@ import Lab from "../assets/images/Lab.webp";
 import Hospitalsoftware from "../assets/images/Hospitalsoftware.webp";
 const ThreeBox = () => {
   return (
-    <section className="bg-[#C CCACB] bg-gradient-to-r from-[#CCCACB] via-[#c5a9a9] to-[#d6cdcd]  w-full " id="more-info">
+    <section className="bg-[#C CCACB] bg-gradient-to-r from-[#CCCACB] via-[#c5a9a9] to-[#d6cdcd]  w-full " id="facility">
       <div className="max-w-[1140px] px-3 mx-auto">
-        <div className="flex flex-wrap flex-row mx-[-12px] py-24">
-          <div className="lg:w-4/12 sm:w-6/12  px-3 ">
+      <h2 className="text-4xl font-bold text-center py-18 text-gray-900">
+      Healthcare Facility
+        </h2>
+        <div className="flex flex-wrap flex-row mx-[-12px] pb-24">
+          <div className="lg:w-4/12 sm:w-6/12  px-3 " data-aos="fade-right">
             <div className=" px-4 py-6  bg-[#CCCACB] hover:bg-[#d6cdcd] duration-300 ease-linear hover:-translate-y-2  group  rounded-2xl shadow-xl h-full ">
               <div className=" rounded-lg overflow-hidden">
                 <img src={Healthinsurance} alt="Healthinsurance" className="w-full group-hover:scale-105 duration-300" />
@@ -46,7 +49,7 @@ const ThreeBox = () => {
             </div>
           </div>
 
-          <div className="lg:w-4/12 sm:w-6/12  px-3 sm:pt-0 pt-6">
+          <div className="lg:w-4/12 sm:w-6/12  px-3 sm:pt-0 pt-6" data-aos="fade-up">
             <div className="  px-4 py-6  bg-[#CCCACB] hover:bg-[#d6cdcd] duration-300 ease-linear hover:-translate-y-2  group  rounded-2xl shadow-xl h-full ">
               <div className=" rounded-lg overflow-hidden">
                 <img src={Lab} alt="lab" className="w-full group-hover:scale-105 duration-300" />
@@ -81,7 +84,7 @@ const ThreeBox = () => {
             </div>
           </div>
 
-          <div className="lg:w-4/12 sm:w-6/12  px-3  mx-auto lg:pt-0 pt-6">
+          <div className="lg:w-4/12 sm:w-6/12  px-3  mx-auto lg:pt-0 pt-6" data-aos="fade-left">
             <div className=" px-4 py-6  bg-[#CCCACB] hover:bg-[#d6cdcd] duration-300 ease-linear hover:-translate-y-2  group  rounded-2xl shadow-xl h-full ">
               <div className=" rounded-lg overflow-hidden">
                 <img src={Hospitalsoftware} alt="Hospitalsoftware" className="w-full group-hover:scale-105 duration-300" />

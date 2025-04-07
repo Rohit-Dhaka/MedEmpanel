@@ -10,7 +10,7 @@ const Empower = () => {
   return (
     <section className="bg- [#CCCACB] bg-gradient-to-r from-[#CCCACB] via-[#c5a9a9] to-[#d6cdcd]"  id="services">
       <div className="max-w-[1140px] mx-auto px-3 ">        
-       <div className="flex flex-col items-center pt-12">
+       <div className="flex flex-col items-center pt-12" data-aos="fade-up">
        <h2 className="text-[#0D0D0D] pt-4 pb-6 sm:text-[48px] text-[32px] font-semibold text-center max-w-[900px]">
           Comprehensive Healthcare Solutions for Your Needs
         </h2>
@@ -23,7 +23,7 @@ const Empower = () => {
        </div>
 
         <div className="flex flex-row flex-wrap-reverse mx-[-12px] py-18 items-center">
-          <div className="md:w-6/12 px-3 max-md:pt-4">
+          <div className="md:w-6/12 px-3 max-md:pt-4" data-aos="fade-right">
             <h2 className="text-[24px] font-semibold text-[#0D0D0D] ">
               Ayushman Empanelment: Partner with Us to Provide Quality
               Healthcare
@@ -46,7 +46,7 @@ const Empower = () => {
               <li>Enhanced credibility and increased patient footfall</li>
             </ul>
           </div>
-          <div className="md:w-6/12 px-3">
+          <div className="md:w-6/12 px-3" data-aos="fade-left">
             <div className=" rounded-lg overflow-hidden">
               <img src={Qualtiycare} alt="Qualtiycare" className="w-full" />
             </div>
@@ -54,11 +54,11 @@ const Empower = () => {
         </div>
         <div className="flex flex-row flex-wrap mx-[-12px] py-18 items-center ">
         <div className="md:w-6/12 px-3">
-            <div className=" rounded-lg overflow-hidden">
+            <div className=" rounded-lg overflow-hidden" data-aos="fade-right">
               <img src={HealthcareStandards} alt="HealthcareStandards" className="w-full" />
             </div>
           </div>
-          <div className="md:w-6/12 px-3 max-md:pt-4">
+          <div className="md:w-6/12 px-3 max-md:pt-4" data-aos="fade-left">
             <h2 className="text-[24px] font-semibold text-[#0D0D0D] ">
               Entry-Level NABH Certification: Elevate Your Healthcare Standards
             </h2>
@@ -83,7 +83,7 @@ const Empower = () => {
           </div>        
         </div>
         <div className="flex flex-row flex-wrap-reverse mx-[-12px] py-18 items-center">
-          <div className="md:w-6/12 px-3 max-md:pt-4">
+          <div className="md:w-6/12 px-3 max-md:pt-4" data-aos="fade-right">
             <h2 className="text-[24px] font-semibold text-[#0D0D0D] ">
               Full NABH Certification: Commit to Excellence in Healthcare
             </h2>
@@ -107,7 +107,7 @@ const Empower = () => {
               <li>Improved operational efficiency and staff performance</li>
             </ul>
           </div>
-          <div className="md:w-6/12 px-3">
+          <div className="md:w-6/12 px-3" data-aos="fade-left">
             <div className=" rounded-lg overflow-hidden">
               <img src={ExcellenceinHealthcare} alt="ExcellenceinHealthcare" className="w-full" />
             </div>
