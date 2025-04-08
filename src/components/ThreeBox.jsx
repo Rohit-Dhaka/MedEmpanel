@@ -3,13 +3,12 @@ import React from "react";
 import { ShieldCheck, Users, CreditCard, CheckCircle } from "lucide-react";
 import { Server, Activity, FileText, BarChart3 } from "lucide-react";
 import { Microscope, Globe, BarChart } from "lucide-react";
-
 import Healthinsurance from "../assets/images/Healthinsurance.webp";
 import Lab from "../assets/images/Lab.webp";
 import Hospitalsoftware from "../assets/images/Hospitalsoftware.webp";
 const ThreeBox = () => {
   return (
-    <section className="bg-[#C CCACB] bg-gradient-to-r from-[#CCCACB] via-[#c5a9a9] to-[#d6cdcd]  w-full " id="facility">
+    <section className="bg-[#C CCACB] bg-gradient-to-r from-[#CCCACB] via-[#c5a9a9] to-[#d6cdcd]  w-full " id="services">
       <div className="max-w-[1140px] px-3 mx-auto">
       <h2 className="text-4xl font-bold text-center py-18 text-gray-900">
       Healthcare Facility

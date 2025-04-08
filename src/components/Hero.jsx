@@ -1,5 +1,5 @@
 import React from 'react'
-import HeroImg from '../assets/images/Hero.webp'
+import HeroImg from '../assets/images/Hero.jpeg'
 import Header from './Header'
 
 
@@ -12,7 +12,7 @@ const Hero = () => {
             <h1 className='text-[#0D0D0D]  font-bold  sm:text-[64px] text-[48px] text-center max-w-[900px]'>Empowering Healthcare <span className='text-[#074ba5]'>Solutions for Your Needs</span></h1>
             <h6 className='text-[#0D0D0D] text-center  pt-6 max-w-[768px]'>Discover a range of comprehensive healthcare services designed to enhance patient care and streamline hospital operations. From insurance and TPA empanelment to staffing solutions, we are here to support your healthcare journey.</h6>
           </div>
-          <div className=" shadow-2xl" data-aos="fade-up">
+          <div className=" shadow-2xl  rounded-xl overflow-hidden" data-aos="fade-up">
             <img src={HeroImg} alt="HeroImg" className='w-full' />
           </div>
 

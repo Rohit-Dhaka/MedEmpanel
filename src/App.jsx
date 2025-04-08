@@ -9,6 +9,8 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Mission from './components/Mission'
+import AyushmanInfo from './components/AyushmanInfo'
+
 
 function App() {
   useEffect(() => {
@@ -21,12 +23,13 @@ function App() {
 
   return (
     <>    
-    {/* <Header/> */}
+      
     <Hero/>
     <Mission/>
     <Empower/>
     <ThreeBox/>
     <Timeline/>
+    <AyushmanInfo/>
     
     <Footer/>
     

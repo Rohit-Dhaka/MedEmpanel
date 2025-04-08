@@ -14,7 +14,7 @@ const Mission = () => {
         </div>
         <div className=" md:w-6/12  px-3 " data-aos="fade-up">
             <h2 className='text-[32px] font-semibold '>Our Mission</h2>
-            <p className=''>In our commitment to excellence, we create value across these diverse sectors. In Healthcare, we seek to improve patient outcomes and make healthcare more accessible. In Education, we aim to revolutionize learning experiences, empowering individuals with knowledge. In Finance, we strive to enhance financial services, making them more inclusive and efficient. In Marketing, we harness the power of data and AI to drive innovation and growth.</p>
+            <p className=''>Our mission is to provide compassionate, high-quality, and accessible healthcare to our community. We are committed to promoting wellness, preventing illness, and restoring health by delivering patient-centered care through innovation, integrity, and excellence. We strive to treat every individual with dignity and respect, ensuring a safe and healing environment for patients, families, and staff alike</p>
         </div>
       </div>
     </div>

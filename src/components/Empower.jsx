@@ -1,7 +1,8 @@
 import React from "react";
-import Qualtiycare from "../assets/images/Qualtiycare.webp";
-import HealthcareStandards from "../assets/images/HealthcareStandards.webp";
-import ExcellenceinHealthcare from "../assets/images/ExcellenceinHealthcare.webp";
+
+import Ayushman from "../assets/images/Ayushman.jpeg"
+import EntryLevel from '../assets/images/Enterlevel.jpeg'
+import NabhLogo from '../assets/images/Nabhlogo.png'
 
 
 
@@ -48,14 +49,16 @@ const Empower = () => {
           </div>
           <div className="md:w-6/12 px-3" data-aos="fade-left">
             <div className=" rounded-lg overflow-hidden">
-              <img src={Qualtiycare} alt="Qualtiycare" className="w-full" />
+              
+              <img src={Ayushman} alt="Ayushman" className="w-full" />
             </div>
           </div>
         </div>
         <div className="flex flex-row flex-wrap mx-[-12px] py-18 items-center ">
         <div className="md:w-6/12 px-3">
             <div className=" rounded-lg overflow-hidden" data-aos="fade-right">
-              <img src={HealthcareStandards} alt="HealthcareStandards" className="w-full" />
+              
+              <img src={EntryLevel}  alt="EntryLevel" className="w-full" />
             </div>
           </div>
           <div className="md:w-6/12 px-3 max-md:pt-4" data-aos="fade-left">
@@ -109,7 +112,8 @@ const Empower = () => {
           </div>
           <div className="md:w-6/12 px-3" data-aos="fade-left">
             <div className=" rounded-lg overflow-hidden">
-              <img src={ExcellenceinHealthcare} alt="ExcellenceinHealthcare" className="w-full" />
+              
+              <img src={NabhLogo} alt="NabhLogo" className="w-full" />
             </div>
           </div>
         </div>
